@@ -19,7 +19,8 @@ The remaining functions in the folder are "auxiliary" functions
   - saturation.m limits herders' maximum speed to a prefixed value
 
 References:
-- [LAMA2023](https://arxiv-org.translate.goog/abs/2307.16797?_x_tr_sl=en&_x_tr_tl=it&_x_tr_hl=it&_x_tr_pto=sc) A.Lama, M. Di Bernardo "Shepherding control and herdability in complex multiagent systems", 2023
+- [LAMA2023](https://arxiv-org.translate.goog/abs/2307.16797?_x_tr_sl=en&_x_tr_tl=it&_x_tr_hl=it&_x_tr_pto=sc) Lama, A., Di Bernardo, M. (2023) "Shepherding control and herdability in complex multiagent systems", arXiv:2307.16797
+
     
     
     
