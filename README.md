@@ -1,11 +1,14 @@
-# Multi-agent-herding-control-problem
+# Shepherding/herding control problem
 
 The code in this folder reproduces the shepherding dynamics as discussed in [Lama2023]. All the codes are written in MATLAB.
+The shepherding (herding) control problem consists of a group of agents, the *herders*, that need to coordinate so as to steer the collective dynamics of a second group of agents, the *targets*.
+Specifically, in [Lama2023] it is discussed a 2d case where the herders need to steer to a prescribed goal region and contain therin a group of targets. The herders achieve this result by i) selecting one target to chase according to their distance from the goal region and ii) steering the selected target towards the goal region exploiting a local repulsion that the herders can exert on close enough targets.
+
 The role of all the variables in the codes is commented in detail therin, and the nomenclature is as coherent as possible with that used in [Lama2023] (some variables may have the name of built-in matlab functions).
 
 - main.m function launches a simulation of the shepherding problem, where herders can have (A) finite or (B) infinite sensing capabilities. 
-- (A) Shepherding_finXi simulates a shepherding dynamics where herders have finite sensing radius (passed as a parameter)
-- (B) Shepherding_infXi simulates a shepherding dynamics where herders have infinite sensing radius 
+- (A) Shepherding_finXi.m simulates a shepherding dynamics where herders have finite sensing radius (passed as a parameter)
+- (B) Shepherding_infXi.m simulates a shepherding dynamics where herders have infinite sensing radius 
 
 Both "Shepherding_finXi.m" and "Shepherding_infXi.m" produce a video analogous to the ones reported in the supplementary material of [LAMA2023], and also save some output quantities that are relevant to carry out the analysis discussed in [LAMA23].
 
